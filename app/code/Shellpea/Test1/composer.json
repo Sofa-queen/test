@@ -1,0 +1,18 @@
+{
+    "name": "shellpea/test1",
+    "description": "demonstration of dependencies",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php" : "~5.5.0|~5.6.0|7.*",
+        "shellpea/test": "1.0.0"
+    },
+    "autoload" : {
+        "files" : [
+            "registration.php"
+        ],
+        "psr-4" : {
+            "Shellpea\\Test1\\" : ""
+        }
+    }
+}
